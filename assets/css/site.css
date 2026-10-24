@@ -521,35 +521,7 @@ body.loaded .hero .anim { opacity: 1; transform: none; }
 ::-webkit-scrollbar-thumb { background: rgba(41, 229, 255, .3); border-radius: 5px; }
 ::-webkit-scrollbar-thumb:hover { background: rgba(41, 229, 255, .5); }
 
-/* ---------------- Resellers: download card & CTA ---------------- */
-.download-card {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  margin-top: 52px;
-  padding: 30px 32px;
-  border-radius: var(--radius);
-  background: linear-gradient(135deg, var(--panel-hi) 0%, var(--panel) 100%);
-  border: 1px solid var(--line-hi);
-  box-shadow: var(--glow);
-}
-.download-info { max-width: 640px; }
-.download-info h3 {
-  font-size: 1.15rem;
-  font-weight: 750;
-  margin-bottom: 6px;
-}
-.download-info p { color: var(--muted); font-size: .95rem; }
-.download-file {
-  margin-top: 10px !important;
-  font-size: .82rem !important;
-  color: var(--cyan-2) !important;
-  font-family: Consolas, "Cascadia Mono", monospace;
-  letter-spacing: .02em;
-}
-.download-card .btn { white-space: nowrap; }
+/* ---------------- Resellers: CTA ---------------- */
 .reseller-cta {
   margin-top: 26px;
   display: flex;
@@ -571,7 +543,6 @@ body.loaded .hero .anim { opacity: 1; transform: none; }
   .gallery-grid { grid-template-columns: 1fr; }
   .gal-item img { height: 260px; }
 
-  .download-card { flex-direction: column; align-items: flex-start; }
   .reseller-cta { flex-direction: column; align-items: flex-start; }
   .menu {
     position: fixed;
